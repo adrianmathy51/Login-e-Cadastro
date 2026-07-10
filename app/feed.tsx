@@ -12,7 +12,7 @@ export default function Feed() {
         <TextInput placeholder='Confirmar senha' style={styles.TextInput}/>
 
         <Pressable style={styles.Button}>Cadastrar</Pressable>
-        <Text style={styles.Text2}>Não possui conta? <Link href='/index'>Cadastrar</Link> </Text>
+        <Text style={styles.Text2}>Já possui uma conta? <Link href='/index'>Login</Link> </Text>
     </View>
   );
 }
